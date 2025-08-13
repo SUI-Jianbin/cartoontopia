@@ -1,0 +1,135 @@
+/* header */
+.navigation-bar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10;
+    background-color: #7d7d7d;
+}
+
+.navigation-bar a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.logo {
+    margin-right: auto;
+    padding-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    align-items: center;
+    text-shadow: #ddd;
+    color:#beb7b7;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color:aliceblue
+}
+
+.navigation-bar a img:hover {
+    filter: brightness(0) invert(1);
+}
+
+.navigation-bar img {
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 35px;
+    object-fit: contain;
+}
+
+.menu-icon img {
+    display: block;
+    height: auto;
+    width: auto;
+    margin: 0 20px;
+    max-height: 35px;
+    object-fit: contain;
+}
+
+.menu-icon img:hover {
+    filter: brightness(0) invert(1);
+}
+
+.menu-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+    z-index: 10;
+}
+
+.menu-item {
+    padding: 5px 2px;
+    padding-right: 20px;
+    border-bottom: 1px solid white;
+}
+
+.menu-item img {
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.menu-text {
+    font-size: 15px;
+    color: #000000;
+}
+
+.menu-item:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.welcome {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.login-text {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.login:hover {
+    filter: brightness(0) invert(1);
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 5px 2px;
+    border-bottom: 1px solid white;
+}
+
+.logout img {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.logout:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.logout-text {
+    font-size: 20px;
+    margin-left: 20px;
+    color: #000000;
+}
