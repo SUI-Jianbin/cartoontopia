@@ -1,5 +1,5 @@
-# Lab-4-Group3-A2
-This is the repository for the COMP5347 Assignment 2
+# cartoontopia
+This is the repository for cartoontopia
 
 
 MongoDB Connection
